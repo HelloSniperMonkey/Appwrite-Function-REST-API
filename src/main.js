@@ -1,7 +1,7 @@
 import AppExpress from "@itznotabug/appexpress";
 const app = new AppExpress();
 
-app.use(app.static('public'));
+app.use(AppExpress.static('public'));
 
 app.get("/", (req, res) => {
     res.send("Hello World!");
