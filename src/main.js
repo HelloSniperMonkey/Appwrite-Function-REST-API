@@ -3,7 +3,7 @@ const app = new AppExpress();
 
 app.views('views');
 // make sure to add correct content-types.
-htmlString = `<!DOCTYPE html>
+const htmlString = `<!DOCTYPE html>
 <html lang="en">
 
 <head>
