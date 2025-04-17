@@ -1,7 +1,7 @@
 import AppExpress from "@itznotabug/appexpress";
 const app = new AppExpress();
 
-app.use(app.static('public'));
+// app.use(app.static('public'));
 app.views('views');
 // make sure to add correct content-types.
 app.get('/', (request, response) => response.binary('index.html'));
